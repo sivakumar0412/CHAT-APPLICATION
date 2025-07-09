@@ -313,4 +313,5 @@ Feel free to reach out via email: [sivakumar041203@gmail.com](mailto:sivakumar04
 
 Project Link: [https://github.com/yourusername/api-integration-dashboard](https://github.com/sivakumar0412/CHAT-APPLICATION)
 
+---
 **Built with ❤️ using Node.js and Socket.IO**
