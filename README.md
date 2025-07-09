@@ -1,3 +1,15 @@
+COMPANY: CODTECH IT SOLUTIONS
+
+NAME: D SIVA KUMAR
+
+INTERN ID: CT06DH1140
+
+DOMAIN: Full Stack Web Development
+
+DURATION: 6 WEEEKS
+
+MENTOR:NEELA SANTOSH
+
 # Real-Time Chat Application
 
 A modern, feature-rich real-time chat application built with Socket.IO, Express.js, and vanilla JavaScript. This application provides seamless real-time communication with a clean, responsive user interface and robust backend architecture.
