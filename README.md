@@ -315,3 +315,7 @@ Project Link: [https://github.com/yourusername/api-integration-dashboard](https:
 
 ---
 **Built with ❤️ using Node.js and Socket.IO**
+## OUTPUT:
+<img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/4972f941-b7ca-474a-bfbe-cfc524a79ba3" />
+
+<img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/25e1863a-8a75-41de-a18f-08cc4e55b532" />
