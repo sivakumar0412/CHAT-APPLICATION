@@ -45,7 +45,6 @@ A modern, feature-rich real-time chat application built with Socket.IO, Express.
 
 ## 📁 Project Structure
 
-\`\`\`
 realtime-chat-app/
 ├── public/                 # Frontend static files
 │   ├── index.html         # Main HTML structure
@@ -54,7 +53,6 @@ realtime-chat-app/
 ├── server.js              # Backend server with Socket.IO
 ├── package.json           # Dependencies and npm scripts
 └── README.md             # Project documentation
-\`\`\`
 
 ## 🚦 Getting Started
 
