@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Real-Time Chat App</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.socket.io/4.7.4/socket.io.min.js"></script>
+</head>
+<body>
+    <!-- Login Screen -->
+    <div id="loginContainer" class="login-container">
+        <div class="login-card">
+            <h1>Join Chat Room</h1>
+            <p>Enter your username to start chatting</p>
+            
+            <div class="connection-status">
+                <div id="loginStatusDot" class="status-dot disconnected"></div>
+                <span id="loginStatusText">Connecting...</span>
+            </div>
+            
+            <div class="input-group">
+                <input type="text" id="usernameInput" class="login-input" placeholder="Enter your username" maxlength="20">
+                <button id="joinButton" class="login-button" disabled>Join Chat</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Chat Interface -->
+    <div id="chatContainer" class="chat-container hidden">
+        <!-- Sidebar -->
+        <div class="sidebar">
+            <div class="sidebar-header">
+                <h2>Online Users</h2>
+                <div class="connection-status">
+                    <div id="chatStatusDot" class="status-dot disconnected"></div>
+                    <span id="chatStatusText">Disconnected</span>
+                </div>
+            </div>
+            <div id="usersList" class="users-list"></div>
+            <div class="users-count">
+                <span id="usersCount">0 users online</span>
+            </div>
+        </div>
+
+        <!-- Main Chat Area -->
+        <div class="main-chat">
+            <div class="chat-header">
+                <div>
+                    <h1>Real-Time Chat</h1>
+                    <p id="welcomeMessage">Welcome to the chat!</p>
+                </div>
+                <button id="leaveButton" class="leave-button">Leave Chat</button>
+            </div>
+            
+            <div id="messagesContainer" class="messages-container"></div>
+            
+            <div class="message-input-container">
+                <input type="text" id="messageInput" class="message-input" placeholder="Type your message..." disabled maxlength="500">
+                <button id="sendButton" class="send-button" disabled>Send</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Notification Container -->
+    <div id="notificationContainer" class="notification-container"></div>
+
+    <script src="client.js"></script>
+</body>
+</html>
