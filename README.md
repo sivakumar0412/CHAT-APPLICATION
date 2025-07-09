@@ -111,7 +111,7 @@ realtime-chat-app/
 
 1. **Clone the repository**
    \`\`\`bash
-   git clone https://github.com/yourusername/realtime-chat-app.git
+   git clone https://github.com/sivakumar0412/CHAT APPLICATION.git
    cd realtime-chat-app
    \`\`\`
 
