@@ -214,7 +214,7 @@ Example response:
 \`\`\`
 
 ### Static Files
-- **GET** `/` - Serves the main chat application (index.html)
+- **GET** `/index.html` - Serves the main chat application 
 - **GET** `/styles.css` - Serves the stylesheet
 - **GET** `/client.js` - Serves the client-side JavaScript
 
@@ -308,5 +308,9 @@ If you encounter any issues or have questions:
 - Contributors and testers who helped improve this application
 
 ---
+## 📬 Contact
+Feel free to reach out via email: [sivakumar041203@gmail.com](mailto:sivakumar041203@gmail.com)
+
+Project Link: [https://github.com/yourusername/api-integration-dashboard](https://github.com/sivakumar0412/CHAT-APPLICATION)
 
 **Built with ❤️ using Node.js and Socket.IO**
