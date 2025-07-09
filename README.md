@@ -44,14 +44,15 @@ A modern, feature-rich real-time chat application built with Socket.IO, Express.
 - **HTTP Server** - Built-in Node.js HTTP server
 
 ## 📁 Project Structure
+
 realtime-chat-app/
-├── public/ # Frontend static files directory
-│ ├── index.html # Main HTML structure and layout
-│ ├── styles.css # Complete CSS styles and animations
-│ └── client.js # Frontend JavaScript logic and Socket.IO client
-├── server.js # Backend Express server with Socket.IO integration
-├── package.json # Node.js dependencies and npm scripts
-└── README.md # Project documentation and setup guide
+├── public/                 # Frontend static files directory
+│   ├── index.html          # Main HTML structure and layout
+│   ├── styles.css          # Complete CSS styles and animations
+│   └── client.js           # Frontend JavaScript logic and Socket.IO client
+├── server.js               # Backend Express server with Socket.IO integration
+├── package.json            # Node.js dependencies and npm scripts
+└── README.md               # Project documentation and setup guide
 
 ### File Descriptions
 
